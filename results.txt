@@ -1,0 +1,23 @@
+benchmarking scrabble/list
+time                 2.778 μs   (2.771 μs .. 2.786 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 2.773 μs   (2.768 μs .. 2.782 μs)
+std dev              21.43 ns   (12.91 ns .. 36.80 ns)
+
+benchmarking scrabble/map
+time                 354.0 ns   (353.1 ns .. 355.0 ns)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 353.5 ns   (352.6 ns .. 354.6 ns)
+std dev              3.109 ns   (2.655 ns .. 3.770 ns)
+
+benchmarking scrabble/hashmap
+time                 431.8 ns   (431.3 ns .. 432.3 ns)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 431.1 ns   (430.5 ns .. 432.4 ns)
+std dev              2.611 ns   (1.700 ns .. 4.513 ns)
+
+benchmarking scrabble/intmap
+time                 387.5 ns   (387.1 ns .. 388.0 ns)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 386.9 ns   (386.5 ns .. 387.6 ns)
+std dev              1.888 ns   (1.425 ns .. 3.010 ns)

@@ -1,0 +1,24 @@
+name:                scrabble-bench
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/AdituV/scrabble-bench#readme
+license:             BSD3
+author:              Iris Ward
+maintainer:          aditu.venyhandottir@gmail.com
+copyright:           2018 Iris Ward
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - deepseq
+  - containers
+  - criterion
+  - unordered-containers
+
+executables:
+  scrabble:
+    source-dirs:      src
+    main:             Main.hs
